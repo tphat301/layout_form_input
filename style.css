@@ -1,0 +1,281 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-content {
+    width: 1200px;
+    max-width: calc(100% - 30px);
+    margin: auto;
+}
+
+.register {
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register_left {
+    margin-right: 16px;
+}
+
+.bx_name_email,
+.bx_phone_old_sub {
+    display: flex;
+}
+
+.register_name {
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.register_phone,
+.register_year_old {
+    margin-right: 16px;
+}
+
+.register_email {
+    margin-bottom: 16px;
+}
+
+.register_email input,
+.register_name input {
+    outline: none;
+    width: 353px;
+    padding: 15px 0;
+    text-indent: 18px;
+    border: 1px solid #ccc;
+}
+
+.register_subject input,
+.register_year_old input,
+.register_phone input {
+    outline: none;
+    width: 230px;
+    padding: 15px 0;
+    text-indent: 18px;
+    border: 1px solid #ccc;
+}
+
+.register_share input {
+    text-indent: 18px;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    width: 375px;
+    border: 1px solid #ccc;
+}
+
+
+@media (max-width: 1024px) {
+    .bx_name_email {
+            display: block;
+        }
+    
+        input.name {
+            width: 100%;
+        }
+    
+        input.email {
+            width: 100%;
+        }
+    
+        .bx_phone_old_sub {
+            display: block;
+        }
+    
+        input[type="text"] {
+            width: 100%;
+        }
+    
+        .register {
+            display: block;
+        }
+    
+        .register_left,
+        .register_name {
+            margin-right: 0;
+        }
+    
+        .register_subject,
+        .register_year_old,
+        .register_phone {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+}
+
+@media (max-width: 992px) {
+    .bx_name_email {
+            display: block;
+        }
+    
+        input.name {
+            width: 100%;
+        }
+    
+        input.email {
+            width: 100%;
+        }
+    
+        .bx_phone_old_sub {
+            display: block;
+        }
+    
+        input[type="text"] {
+            width: 100%;
+        }
+    
+        .register {
+            display: block;
+        }
+    
+        .register_left,
+        .register_name {
+            margin-right: 0;
+        }
+    
+        .register_subject,
+        .register_year_old,
+        .register_phone {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+}
+
+@media (max-width: 768px) {
+    .bx_name_email {
+            display: block;
+        }
+    
+        input.name {
+            width: 100%;
+        }
+    
+        input.email {
+            width: 100%;
+        }
+    
+        .bx_phone_old_sub {
+            display: block;
+        }
+    
+        input[type="text"] {
+            width: 100%;
+        }
+    
+        .register {
+            display: block;
+        }
+    
+        .register_left,
+        .register_name {
+            margin-right: 0;
+        }
+    
+        .register_subject,
+        .register_year_old,
+        .register_phone {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+}
+
+@media (max-width: 576px) {
+    .bx_name_email {
+            display: block;
+        }
+    
+        input.name {
+            width: 100%;
+        }
+    
+        input.email {
+            width: 100%;
+        }
+    
+        .bx_phone_old_sub {
+            display: block;
+        }
+    
+        input[type="text"] {
+            width: 100%;
+        }
+    
+        .register {
+            display: block;
+        }
+    
+        .register_left,
+        .register_name {
+            margin-right: 0;
+        }
+    
+        .register_subject,
+        .register_year_old,
+        .register_phone {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+}
+
+@media (max-width: 375px) {
+    .bx_name_email {
+        display: block;
+    }
+    
+    input.name {
+        width: 100%;
+    }
+    
+    input.email {
+        width: 100%;
+    }
+    
+    .bx_phone_old_sub {
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .register {
+        display: block;
+    }
+
+    .register_left,
+    .register_name {
+        margin-right: 0;
+    }
+
+    .register_subject,
+    .register_year_old,
+    .register_phone {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+
